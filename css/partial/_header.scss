@@ -1,0 +1,47 @@
+header {
+    width: $ancho*2;
+    height: $alto*2.5;
+    background: #000000; 
+    background: -webkit-linear-gradient(to bottom, hsla(0, 0%, 26%, 0.24), hsla(0, 0%, 0%, 0.89)), url(../assets/grupo-consultores-de-empresas.jpg); 
+    background: url(../assets/grupo-consultores-de-empresas.jpg); 
+    background-size: cover;
+    background-attachment: fixed;
+    position: relative;
+    overflow: hidden;
+
+    & .header__textos {
+        display: flex;
+        height: ($alto)-55;
+        width: $ancho;
+        align-items: center;
+        justify-content: flex-end;
+        flex-direction: column;
+        text-align: center;
+        margin-top: 20vh;
+        &.btn{
+            margin: 30px;
+        }
+    }
+    h1{
+        font-size: $font-size*5;
+        color: #ffff;
+    }
+    
+    h2 {
+        font-size: $font-size*3;
+        font-weight: 300;
+        color: #ffff;
+    }
+    .nav{
+        justify-content: space-between;
+    }
+    .nav-link{
+        font-size: $font-size*2;
+        color: #ffff;
+        font-weight: 700;
+        &:hover{
+            color: #ffff;
+        }
+    }
+    
+}

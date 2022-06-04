@@ -1,0 +1,87 @@
+@import "./vars";
+@import "./mediaqueries";
+
+//QUIENES SOMOS Y PROPOSITO
+$colores: (
+    blanco: white,
+    negro: black,
+);
+
+@each $name, $color in $colores{
+    .parrafo--#{$name}{
+        color: $color;
+    }
+}
+
+.main .main-Proposito{
+    background-color: gray;
+    margin-bottom: 82px;
+    font-size: $font-size*2;
+    @include breakpoint (sm){
+        margin-bottom: 10px;
+    }
+
+}
+
+.main .col-md-12{
+    @include breakpoint(sm){
+        text-align:center;
+        margin-top: 1rem;
+    }
+}
+
+.col-lg-6{
+    overflow: hidden;
+    @include breakpoint(sm){
+        text-align: center;
+        margin-top: 20px;
+    }
+}
+
+.main .main-quienesSomos{
+    background-color: rgba(128, 128, 128, 0.57);
+    padding: 4.9rem 1.2rem;
+    font-size: $font-size*2;
+    margin-bottom: 0rem;
+    @include breakpoint(sm){
+        padding: 1rem 1.2rem;
+    }
+}
+
+//ALIANZAS
+
+.alianza__titulo {
+	margin-top: 25px;
+}
+.alianza__miembro {
+	img {
+		max-width: 100%;
+		height: 300px;
+		width: 300px;
+		border-radius: 50%;
+		margin: auto;
+	}
+}
+    
+.alianza {
+	max-width: 100%;
+	height: 100px;
+	width: 100px;
+	border-radius: 50%;
+	margin: auto;
+	overflow: hidden;
+	position: relative;
+	-webkit-box-shadow: 1px 1px 3px 0 rgba(0, 0, 0, 0.3);
+	-moz-box-shadow: 1px 1px 3px 0 rgba(0, 0, 0, 0.3);
+	box-shadow: 1px 1px 3px 0 rgba(0, 0, 0, 0.3);
+	img {
+		max-width: 100%;
+		height: 100px;
+		width: 100px;
+		border-radius: 50%;
+		margin: auto;
+		position: relative;
+		top: 0;
+		left: 0;
+	}
+}

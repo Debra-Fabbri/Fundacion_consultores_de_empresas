@@ -1,0 +1,16 @@
+.main .main-8late{
+    background-color: rgba(128, 128, 128, 0.57);
+    padding: 4.9rem 1.2rem;
+    font-size: $font-size*2;
+    margin-bottom: 0rem;
+    @include breakpoint(sm){
+        padding: 1rem 1.2rem;
+    }
+}
+
+.main .main-ONGempujar{
+    background-color: rgba(128, 128, 128, 0.57);
+    @include breakpoint(sm){
+        padding: 1rem 1.2rem;
+    }
+}

@@ -123,3 +123,18 @@ header {
 
 .proposito {
   justify-content: center; }
+
+.main .main-8late {
+  background-color: rgba(128, 128, 128, 0.57);
+  padding: 4.9rem 1.2rem;
+  font-size: 20px;
+  margin-bottom: 0rem; }
+  @media (max-width: 991px) {
+    .main .main-8late {
+      padding: 1rem 1.2rem; } }
+
+.main .main-ONGempujar {
+  background-color: rgba(128, 128, 128, 0.57); }
+  @media (max-width: 991px) {
+    .main .main-ONGempujar {
+      padding: 1rem 1.2rem; } }

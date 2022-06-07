@@ -120,3 +120,6 @@ header {
     font-weight: 700; }
     header .nav-link:hover {
       color: #ffff; }
+
+.proposito {
+  justify-content: center; }

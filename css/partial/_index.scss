@@ -85,3 +85,63 @@ $colores: (
 		left: 0;
 	}
 }
+
+.proyectos {
+	background-color: rgba(128, 128, 128, 0.57);
+    padding: 4.9rem 1.2rem;
+    font-size: $font-size*2;
+}
+
+#Proyecto {
+    background-color: rgba(128, 128, 128, 0.57);
+    padding: 4.5rem 1.2rem;
+    font-size: $font-size*2;
+    margin-bottom: 0rem;
+    @include breakpoint(sm){
+        padding: 1rem 1.2rem;
+    }
+}
+
+.card {
+    transition: transform 0.5s;
+    padding: 5px;
+    margin: 15px;
+    text-align: center;
+}
+
+.card-text {
+    font-size: 16px;
+    margin: auto;
+    padding: 25px 0 20px 0;
+}
+
+.card:hover {
+    transform: scale(1.05);
+}
+
+#Acciones {
+	background-color: gray;
+    padding: 4.5rem 1.2rem;
+    font-size: $font-size*2;
+    margin-bottom: 0rem;
+	text-align: center;
+    @include breakpoint(sm){
+        padding: 1rem 1.2rem;
+    }
+}
+
+.img__ {
+	margin: 1rem;
+}
+
+.contacto {
+	text-align: center;
+    padding: 4.9rem 1.2rem;
+    font-size: $font-size*2;
+}
+
+.footer {
+    background-color: #27A485;
+    padding: 5px;
+    text-align: center;
+    }

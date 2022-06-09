@@ -1,16 +1,12 @@
-.proposito{
-    justify-content: center;
-}
-
-.main .main-propositoA{
+.main .main-proyecto{
     padding: 4.9rem 1.2rem;
-    background-color:   #7258a1  ;
+    background-color:  #46acb4 ;
     @include breakpoint(sm){
         padding: 1rem 1.2rem;
     } 
 }
 
-.main .main-propositoB{
+.main .main-proyectoB{
     padding: 4.9rem 1.2rem;
     background-color:  #ccdb3c ;
     @include breakpoint(sm){
@@ -18,7 +14,7 @@
     } 
 }
 
-.main .main-propositoC{
+.main .main-proyectoC{
     padding: 4.9rem 1.2rem;
     @include breakpoint(sm){
         padding: 1rem 1.2rem;

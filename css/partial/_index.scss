@@ -14,9 +14,12 @@ $colores: (
 }
 
 .main .main-Proposito{
-    background-color: gray;
+    background-color:   #eaebea ;
     margin-bottom: 82px;
     font-size: $font-size*2;
+    .imProposito{
+        margin: 80px;
+    }
     @include breakpoint (sm){
         margin-bottom: 10px;
     }
@@ -39,7 +42,7 @@ $colores: (
 }
 
 .main .main_quienesSomos{
-    background-color: rgba(128, 128, 128, 0.57);
+    background-color:  #3c3474;
     padding: 4.9rem 1.2rem;
     font-size: $font-size*2;
     margin-bottom: 0rem;
@@ -86,14 +89,8 @@ $colores: (
 	}
 }
 
-.proyectos {
-	background-color: rgba(128, 128, 128, 0.57);
-    padding: 4.9rem 1.2rem;
-    font-size: $font-size*2;
-}
-
 #Proyecto {
-    background-color: rgba(128, 128, 128, 0.57);
+    background-color:  #ccdc3e ;
     padding: 4.5rem 1.2rem;
     font-size: $font-size*2;
     margin-bottom: 0rem;
@@ -120,11 +117,15 @@ $colores: (
 }
 
 #Acciones {
-	background-color: gray;
+	background-color:  #734c9b ;
     padding: 4.5rem 1.2rem;
     font-size: $font-size*2;
     margin-bottom: 0rem;
 	text-align: center;
+    img{
+        width: 500px;
+    height: 400px;
+    }
     @include breakpoint(sm){
         padding: 1rem 1.2rem;
     }
@@ -141,7 +142,7 @@ $colores: (
 }
 
 .footer {
-    background-color: #27A485;
+    background-color: #243c90 ;
     padding: 5px;
     text-align: center;
     }

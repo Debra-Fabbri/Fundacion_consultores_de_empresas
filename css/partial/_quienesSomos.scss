@@ -1,0 +1,17 @@
+.main .main-titulo{
+    background:   #ccdb3c ;
+    padding: 4.9rem 1.2rem;
+    font-size: $font-size*2;
+    margin-bottom: 0rem;
+    @include breakpoint(sm){
+        padding: 1rem 1.2rem;
+    }
+}
+
+.main-contenido{
+    background: url(/assets/grulla-blanco-removebg.png);
+}
+
+.contenidoImg{
+    margin: 60px;
+}

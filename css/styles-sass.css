@@ -58,7 +58,10 @@ body {
   }
 }
 
-.main .main-quienesSomos {
+
+
+
+.main .main_quienesSomos {
   background-color: rgba(128, 128, 128, 0.57);
   padding: 4.9rem 1.2rem;
   font-size: 20px;
@@ -66,10 +69,24 @@ body {
 }
 
 @media (max-width: 991px) {
-  .main .main-quienesSomos {
+  .main .main_quienesSomos {
     padding: 1rem 1.2rem;
   }
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 .alianza__titulo {
   margin-top: 25px;

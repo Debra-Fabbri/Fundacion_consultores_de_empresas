@@ -25,9 +25,11 @@ body {
   color: black; }
 
 .main .main-Proposito {
-  background-color: gray;
+  background-color: #eaebea;
   margin-bottom: 82px;
   font-size: 20px; }
+  .main .main-Proposito .imProposito {
+    margin: 80px; }
   @media (max-width: 991px) {
     .main .main-Proposito {
       margin-bottom: 10px; } }
@@ -45,7 +47,7 @@ body {
       margin-top: 20px; } }
 
 .main .main_quienesSomos {
-  background-color: rgba(128, 128, 128, 0.57);
+  background-color: #3c3474;
   padding: 4.9rem 1.2rem;
   font-size: 20px;
   margin-bottom: 0rem; }
@@ -84,13 +86,8 @@ body {
     top: 0;
     left: 0; }
 
-.proyectos {
-  background-color: rgba(128, 128, 128, 0.57);
-  padding: 4.9rem 1.2rem;
-  font-size: 20px; }
-
 #Proyecto {
-  background-color: rgba(128, 128, 128, 0.57);
+  background-color: #ccdc3e;
   padding: 4.5rem 1.2rem;
   font-size: 20px;
   margin-bottom: 0rem; }
@@ -113,11 +110,14 @@ body {
   transform: scale(1.05); }
 
 #Acciones {
-  background-color: gray;
+  background-color: #734c9b;
   padding: 4.5rem 1.2rem;
   font-size: 20px;
   margin-bottom: 0rem;
   text-align: center; }
+  #Acciones img {
+    width: 500px;
+    height: 400px; }
   @media (max-width: 991px) {
     #Acciones {
       padding: 1rem 1.2rem; } }
@@ -131,7 +131,7 @@ body {
   font-size: 20px; }
 
 .footer {
-  background-color: #27A485;
+  background-color: #243c90;
   padding: 5px;
   text-align: center; }
 
@@ -170,13 +170,33 @@ header {
     color: #ffff;
     font-weight: 700; }
     header .nav-link:hover {
-      color: #ffff; }
+      color: #8970a4; }
 
 .proposito {
   justify-content: center; }
 
+.main .main-propositoA {
+  padding: 4.9rem 1.2rem;
+  background-color: #7258a1; }
+  @media (max-width: 991px) {
+    .main .main-propositoA {
+      padding: 1rem 1.2rem; } }
+
+.main .main-propositoB {
+  padding: 4.9rem 1.2rem;
+  background-color: #ccdb3c; }
+  @media (max-width: 991px) {
+    .main .main-propositoB {
+      padding: 1rem 1.2rem; } }
+
+.main .main-propositoC {
+  padding: 4.9rem 1.2rem; }
+  @media (max-width: 991px) {
+    .main .main-propositoC {
+      padding: 1rem 1.2rem; } }
+
 .main .main-8late {
-  background-color: rgba(128, 128, 128, 0.57);
+  background-color: #7258a1;
   padding: 4.9rem 1.2rem;
   font-size: 20px;
   margin-bottom: 0rem; }
@@ -185,7 +205,55 @@ header {
       padding: 1rem 1.2rem; } }
 
 .main .main-ONGempujar {
-  background-color: rgba(128, 128, 128, 0.57); }
+  padding: 4.9rem 1.2rem;
+  background-color: #dfe3e3; }
   @media (max-width: 991px) {
     .main .main-ONGempujar {
+      padding: 1rem 1.2rem; } }
+
+.main .main-NQN {
+  background-image: url(/assets/grulla-verde.png); }
+  .main .main-NQN img {
+    margin: 70px; }
+
+.main .main-Siburu {
+  padding: 4.9rem 1.2rem;
+  background-color: #46acb4; }
+  @media (max-width: 991px) {
+    .main .main-Siburu {
+      padding: 1rem 1.2rem; } }
+
+.main .main-titulo {
+  background: #ccdb3c;
+  padding: 4.9rem 1.2rem;
+  font-size: 20px;
+  margin-bottom: 0rem; }
+  @media (max-width: 991px) {
+    .main .main-titulo {
+      padding: 1rem 1.2rem; } }
+
+.main-contenido {
+  background: url(/assets/grulla-blanco-removebg.png); }
+
+.contenidoImg {
+  margin: 60px; }
+
+.main .main-proyecto {
+  padding: 4.9rem 1.2rem;
+  background-color: #46acb4; }
+  @media (max-width: 991px) {
+    .main .main-proyecto {
+      padding: 1rem 1.2rem; } }
+
+.main .main-proyectoB {
+  padding: 4.9rem 1.2rem;
+  background-color: #ccdb3c; }
+  @media (max-width: 991px) {
+    .main .main-proyectoB {
+      padding: 1rem 1.2rem; } }
+
+.main .main-proyectoC {
+  padding: 4.9rem 1.2rem; }
+  @media (max-width: 991px) {
+    .main .main-proyectoC {
       padding: 1rem 1.2rem; } }

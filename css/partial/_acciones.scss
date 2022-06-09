@@ -1,5 +1,5 @@
 .main .main-8late{
-    background-color: rgba(128, 128, 128, 0.57);
+    background-color:  #7258a1 ;
     padding: 4.9rem 1.2rem;
     font-size: $font-size*2;
     margin-bottom: 0rem;
@@ -9,7 +9,23 @@
 }
 
 .main .main-ONGempujar{
-    background-color: rgba(128, 128, 128, 0.57);
+    padding: 4.9rem 1.2rem;
+    background-color:  #dfe3e3 ;
+    @include breakpoint(sm){
+        padding: 1rem 1.2rem;
+    }
+}
+
+.main .main-NQN{
+    img{
+        margin: 70px;
+    }
+    background-image: url(/assets/grulla-verde.png);
+}
+
+.main .main-Siburu{
+    padding: 4.9rem 1.2rem;
+    background-color:  #46acb4 ;
     @include breakpoint(sm){
         padding: 1rem 1.2rem;
     }
